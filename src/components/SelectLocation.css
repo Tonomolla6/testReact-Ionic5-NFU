@@ -1,0 +1,23 @@
+.drop {
+    height: 30px;
+    width: 100vw;
+    background-color: #7d97ae;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.drop p {
+    margin: 0;
+}
+
+.drop .drop_location {
+    margin: 5px;
+}
+
+.drop .drop_arrow {
+    position: absolute;
+    right: 5px;
+}

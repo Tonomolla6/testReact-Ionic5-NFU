@@ -1,0 +1,7 @@
+{
+  "name": "testReact-Ionic5-NFU",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react"
+}
