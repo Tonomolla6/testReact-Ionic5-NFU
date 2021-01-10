@@ -12,7 +12,8 @@ import { IonReactRouter } from '@ionic/react-router';
 import { homeSharp, searchSharp, addCircleSharp, personSharp } from 'ionicons/icons';
 import Home from './pages/Home';
 import Search from './pages/Search';
-import Tab3 from './pages/Tab3';
+import Create from './pages/Create';
+import User from './pages/User';
 
 /* Core CSS required for Ionic components to work properly */
 import '@ionic/react/css/core.css';
@@ -41,7 +42,8 @@ const App: React.FC = () => (
         <IonRouterOutlet>
           <Route path="/home" component={Home} exact={true} />
           <Route path="/search" component={Search} exact={true} />
-          <Route path="/tab3" component={Tab3} />
+          <Route path="/create" component={Create} />
+          <Route path="/user" component={User} />
           <Route path="/" render={() => <Redirect to="/home" />} exact={true} />
         </IonRouterOutlet>
         <IonTabBar slot="bottom">
@@ -51,10 +53,10 @@ const App: React.FC = () => (
           <IonTabButton tab="search" href="/search">
             <IonIcon icon={searchSharp} />
           </IonTabButton>
-          <IonTabButton tab="tab2" href="/tab2">
+          <IonTabButton tab="create" href="/create">
             <IonIcon icon={addCircleSharp} />
           </IonTabButton>
-          <IonTabButton tab="tab3" href="/tab3">
+          <IonTabButton tab="user" href="/user">
             <IonIcon icon={personSharp} />
           </IonTabButton>
         </IonTabBar>

@@ -1,3 +1,56 @@
 .event {
     
 }
+
+.event h3 {
+    margin: 0px;
+    color: var(--ion-color-primary);
+    font-weight: bold;
+    margin: 20px 20px 0px 20px;
+}
+
+.event_slide {
+    width: 300px !important;
+    height: 300px;
+}
+
+.event_slide_card {
+    border-radius: 0;
+    position: relative;
+    height: 270px;
+}
+
+.event_slide_card_header {
+    padding: 0px;
+}
+
+.event_slide_card_header p {
+    position: absolute;
+    color: white;
+    background-color: var(--ion-color-primary);
+    padding: 5px 10px;
+    margin: 0;
+}
+
+.event_slide_card_header_people {
+    top: 153px;
+}
+
+.event_slide_card_header_time {
+    top: 0;
+    right: 0;
+}
+
+.event_slide_card_header_price {
+    right: 0;
+    top: 153px;
+}
+
+.event_slide_card_header_title {
+    font-size: 19px;
+    margin: 10px;
+}
+
+.event_slide_card_header_subtitle {
+    margin: 10px;
+}

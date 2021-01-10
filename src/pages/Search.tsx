@@ -1,5 +1,6 @@
 import React from 'react';
 import { IonContent, IonHeader, IonPage, IonToolbar, IonSearchbar } from '@ionic/react';
+import Categories from '../components/Categories';
 import './Search.css';
 
 const Search: React.FC = () => {
@@ -11,7 +12,7 @@ const Search: React.FC = () => {
         </IonToolbar>
       </IonHeader>
       <IonContent fullscreen>
-    
+        <Categories></Categories>
       </IonContent>
     </IonPage>
   );

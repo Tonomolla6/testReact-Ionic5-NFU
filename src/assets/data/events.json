@@ -1,0 +1,64 @@
+{
+    "data":[
+        {
+            "id": 0,
+            "title": "Partido de futbol sala",
+            "location": "Polideportivo Municipal Ontinyent",
+            "category": "futbol-sala",
+            "cp": 46870,
+            "date": "20/01/2021",
+            "time": "16:00",
+            "description": "Quedamos fuera en las escaleras, que alguien traiga pelota",
+            "precio": 6.00,
+            "participants": {
+                "max": 10,
+                "registered": 3
+            }
+        },
+        {
+            "id": 1,
+            "title": "Partido de futbol 7",
+            "category": "futbol-7",
+            "location": "Colegio San Jose",
+            "cp": 46870,
+            "date": "12/01/2021",
+            "time": "16:30",
+            "description": "Quedamos fuera en las escaleras, que alguien traiga pelota",
+            "precio": 3.50,
+            "participants": {
+                "max": 14,
+                "registered": 5
+            }
+        },
+        {
+            "id": 3,
+            "title": "Partido de básquet",
+            "location": "Polideportivo Municipal Ontinyent",
+            "category": "baloncesto",
+            "cp": 46870,
+            "date": "16/01/2021",
+            "time": "20:00",
+            "description": "Quedamos fuera en las escaleras, que alguien traiga pelota",
+            "precio": 2.00,
+            "participants": {
+                "max": 4,
+                "registered": 1
+            }
+        },
+        {
+            "id": 4,
+            "title": "Partido de tennis",
+            "location": "Polideportivo Municipal Ontinyent",
+            "category": "tennis",
+            "cp": 46870,
+            "date": "26/01/2021",
+            "time": "10:00",
+            "description": "Quedamos fuera en las escaleras",
+            "precio": 8.00,
+            "participants": {
+                "max": 2,
+                "registered": 1
+            }
+        }
+    ]
+}

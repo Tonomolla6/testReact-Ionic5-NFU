@@ -1,0 +1,16 @@
+{
+    "data": [
+        {
+            "name": "futbol",
+            "image": "../assets/img/futbol.jpg"
+        },
+        {
+            "name": "tennis",
+            "image": "../assets/img/tennis.jpg"
+        },
+        {
+            "name": "basquet",
+            "image": "../assets/img/basquet.jpg"
+        }
+    ]
+}

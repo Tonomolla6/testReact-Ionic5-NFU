@@ -20,9 +20,9 @@ const Home: React.FC = () => {
         <SelectLocation></SelectLocation>
       </IonHeader>
       <IonContent fullscreen>
-        <Events filter="new"></Events>
-        <Events filter="popular"></Events>
-        <Events filter="near"></Events>
+        <Events title="Eventos nuevos" filter="new"></Events>
+        <Events title="Eventos populares" filter="popular"></Events>
+        <Events title="Eventos proximos" filter="near"></Events>
       </IonContent>
     </IonPage>
   );
